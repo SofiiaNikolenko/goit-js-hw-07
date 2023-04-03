@@ -6,7 +6,7 @@ const gallery = document.querySelector(".gallery");
 const createGalleryList = galleryItems.map(
     ({ preview, original, description }) =>
         `<li class="gallery__item">
-            <a class="gallery__link" href="large-image.jpg">
+            <a class="gallery__link" href="#">
                 <img
                     class="gallery__image"
                     src="${preview}"
